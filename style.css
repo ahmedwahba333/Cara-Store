@@ -67,15 +67,24 @@ article {
 
 
 
-@media only screen and (max-width:1281px) {
+@media only screen and (max-width:856px) {
     article {
-        background-size: auto;
+        background-size: 100rem 73rem;
+        background-position:0px ;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+       
+    }
+    .left-article{ font-size: medium;
     }
 
-
+    .button0 {
+        left:37%
+       
+    }
+    
 }
 
 
@@ -114,20 +123,25 @@ p {
 
 
 
-@media only screen and (max-width:1281px) {
+@media only screen and (max-width:468px) {
     .art :nth-child(1) {
 
-        font-size: 35px !important;
+        font-size: 15px !important;
     }
 
     .art p {
-        font-size: 45px !important;
+        font-size: 25px !important;
     }
 
     .art :nth-child(4) {
 
-        font-size: 20px !important;
+        font-size: 10px !important;
     }
+    .button0 {
+        left:25%
+       
+    }
+    
 }
 
 
@@ -171,25 +185,53 @@ p {
 
 
 
-aside {
+.aside1 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100vh;
+    justify-content: space-evenly; 
+    text-align: center;
+    
+}
+
+aside img{
+    width: 10rem !important;
+    padding: 20px;
 }
 
 .card-body1:hover{
-    transform: scale(1.15) ;
+    transform: scale(1.059) ;
     transition: .3s;
 }
+.card1 {
+    text-align: center;
+    border: 0.5px solid rgb(171, 241, 171);
+    border-radius: 5px;
+    width:fit-content;
+    /* padding: 30px 0 0 0; */
+}
+
 
 /* media query */
 
 @media only screen and (max-width:1281px) {
     aside {
-        height: 30rem;
-        margin: 10px 0px;
+        /* height: 30rem; */
+        /* margin: 10px 0px; */
+        
+            /* display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 100vh; */
+        
+        
     }
+    .card1 {
+        text-align: center;
+        border: 0.5px solid rgb(171, 241, 171);
+        border-radius: 5px;
+        width: fit-content;
+        /* padding: 30px 0 0 0; */
+    }
+    
 
     .card-body1 {
         font-size: 8px;
@@ -211,10 +253,6 @@ aside {
 
 }
 
-.row1 {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .card-body1 {
 
@@ -253,15 +291,11 @@ aside {
     background-color: #FFF2E5;
 }
 
+/* .aside1{
+    width: 100%;
+} */
 
 
-
-.card1 {
-    text-align: center;
-    border: 0.5px solid rgb(171, 241, 171);
-    border-radius: 5px;
-    padding: 30px 0 0 0;
-}
 
 
 /* section */
